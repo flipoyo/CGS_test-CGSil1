@@ -32,7 +32,7 @@ default_branch = "main"
 
 [[repos]]
 gitprovider        = "gitlab"
-project_owner_name = "flipoyo"
+project_owner_name = "CGS_test"
 project_name       = "CGSil1"
 default_branch     = "main"
 fallback_branch    = "main"
@@ -42,7 +42,7 @@ relative_path      = "."
 
 [[repos]]
 gitprovider        = "gitlab"
-project_owner_name = "flipoyo"
+project_owner_name = "CGS_test"
 project_name       = "CGSil2"
 default_branch     = "main"
 fallback_branch    = "main"
