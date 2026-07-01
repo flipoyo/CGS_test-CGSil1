@@ -1,13 +1,31 @@
 [register]
-current_snapshot_id = "gts-000001"
-current_snapshot_hash = "9824b5d9755df8a6f1c8b21f7237eb62967ceefc8a27f2863450a515f22ef05e"
-current_snapshot_path = "$HOME/Programmes/CGSil1/.cgitsync/state/CGSil1.gts"
+current_snapshot_id = "gts-000004"
+current_snapshot_hash = "86ab92f3f40c1b29873fcf52dd6ed736c8f9986043049ee012bc43b9551a9939"
+current_snapshot_path = "$HOME/Programmes/CGSil1/.cgitsync/state/gts-000004.gts"
 
 [[snapshots]]
 id = "gts-000001"
 snapshot_hash = "9824b5d9755df8a6f1c8b21f7237eb62967ceefc8a27f2863450a515f22ef05e"
-snapshot_path = "$HOME/Programmes/CGSil1/.cgitsync/state/CGSil1.gts"
+snapshot_path = "$HOME/Programmes/CGSil1/.cgitsync/state/gts-000001.gts"
 recorded_at = "2026-07-01T17:41:57.439Z"
+
+[[snapshots]]
+id = "gts-000002"
+snapshot_hash = "32b594c67ed2f4b5f2b8c167c035e6c2c25a1f4be19528b5f3076b9e7b0d673f"
+snapshot_path = "$HOME/Programmes/CGSil1/.cgitsync/state/gts-000002.gts"
+recorded_at = "2026-07-01T18:37:57.373Z"
+
+[[snapshots]]
+id = "gts-000003"
+snapshot_hash = "183ea3375555ed32e6cb8b6a6359ea1bba5c11613b6bfb81e5b4f847ebfc9755"
+snapshot_path = "$HOME/Programmes/CGSil1/.cgitsync/state/gts-000003.gts"
+recorded_at = "2026-07-01T19:05:09.211Z"
+
+[[snapshots]]
+id = "gts-000004"
+snapshot_hash = "86ab92f3f40c1b29873fcf52dd6ed736c8f9986043049ee012bc43b9551a9939"
+snapshot_path = "$HOME/Programmes/CGSil1/.cgitsync/state/gts-000004.gts"
+recorded_at = "2026-07-01T19:05:23.423Z"
 
 [[ledger]]
 sync_id = "lgr-000001"
@@ -17,6 +35,57 @@ timestamp = "2026-07-01T17:41:57.440Z"
 actor = "nflipo"
 workspace_hash = "9824b5d9755df8a6f1c8b21f7237eb62967ceefc8a27f2863450a515f22ef05e"
 gts_snapshot_id = "gts-000001"
+affected_repos = [
+    "CGSih1",
+    "CGSih2",
+    "CGSil1",
+    "CGSil2",
+]
+
+[[ledger]]
+sync_id = "lgr-000002"
+parent_sync_ids = [
+    "lgr-000001",
+]
+operation = "push"
+timestamp = "2026-07-01T18:37:57.374Z"
+actor = "nflipo"
+workspace_hash = "32b594c67ed2f4b5f2b8c167c035e6c2c25a1f4be19528b5f3076b9e7b0d673f"
+gts_snapshot_id = "gts-000002"
+affected_repos = [
+    "CGSih1",
+    "CGSih2",
+    "CGSil1",
+    "CGSil2",
+]
+
+[[ledger]]
+sync_id = "lgr-000003"
+parent_sync_ids = [
+    "lgr-000002",
+]
+operation = "branch"
+timestamp = "2026-07-01T19:05:09.213Z"
+actor = "nflipo"
+workspace_hash = "183ea3375555ed32e6cb8b6a6359ea1bba5c11613b6bfb81e5b4f847ebfc9755"
+gts_snapshot_id = "gts-000003"
+affected_repos = [
+    "CGSih1",
+    "CGSih2",
+    "CGSil1",
+    "CGSil2",
+]
+
+[[ledger]]
+sync_id = "lgr-000004"
+parent_sync_ids = [
+    "lgr-000003",
+]
+operation = "checkout"
+timestamp = "2026-07-01T19:05:23.427Z"
+actor = "nflipo"
+workspace_hash = "86ab92f3f40c1b29873fcf52dd6ed736c8f9986043049ee012bc43b9551a9939"
+gts_snapshot_id = "gts-000004"
 affected_repos = [
     "CGSih1",
     "CGSih2",
