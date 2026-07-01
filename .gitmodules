@@ -1,0 +1,8 @@
+[submodule "CGSih1"]
+	path = CGSih1
+	url = git@github.com:flipoyo/CGSih1.git
+	branch = main
+[submodule "CGSil2"]
+	path = CGSil2
+	url = git@gitlab.com:CGS_test/CGSil2.git
+	branch = main
